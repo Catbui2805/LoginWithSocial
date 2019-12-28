@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  LoginSocial
+
+  Created by Nguyen Tran Cong on 12/11/19.
+  Copyright © 2019 Nguyen Tran. All rights reserved.
+*/
+
+"hello" = "Xin chao.";
+"content" = "Noi dung";
+"facebook" = "Facebook";
+"google" = "Google";
+"login" = "Đăng nhập";
+"logout" = "Đăng xuất";

@@ -1,0 +1,24 @@
+//
+//  Development.xcconfig
+//  LoginSocial
+//
+//  Created by Nguyen Tran Cong on 12/22/19.
+//  Copyright © 2019 Nguyen Tran. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-LoginSocial/Pods-LoginSocial.debug (development).xcconfig"
+
+// Development.xcconfig
+// Server URL
+ROOT_URL = http:/$()/localhost:3000
+
+// Keys
+API_KEY = 783u9djd8a_hkzos7jd803001nd
+
+// App Settings
+APP_NAME = Login Socoal (Dev)
+APP_BUNDLE_ID = com.nguyentran.loginSocial.dev
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCell" id="gTV-IL-0wX" customClass="HomeCell" customModule="LoginSocial" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="448" height="144"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4T-Sb-Kze">
+                        <rect key="frame" x="16" y="8" width="416" height="128"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbw-7D-dCX">
+                                <rect key="frame" x="58" y="42" width="300" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gdR-W4-eLD"/>
+                                    <constraint firstAttribute="width" constant="300" id="pVb-HK-Pjv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Pbw-7D-dCX" firstAttribute="centerY" secondItem="X4T-Sb-Kze" secondAttribute="centerY" id="Egt-ht-Pzg"/>
+                            <constraint firstItem="Pbw-7D-dCX" firstAttribute="centerX" secondItem="X4T-Sb-Kze" secondAttribute="centerX" id="uX9-I0-HXD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="X4T-Sb-Kze" secondAttribute="bottom" constant="8" id="DYg-zP-REg"/>
+                <constraint firstItem="X4T-Sb-Kze" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="dXe-4D-Q5b"/>
+                <constraint firstItem="X4T-Sb-Kze" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="l9k-K0-AD4"/>
+                <constraint firstAttribute="trailing" secondItem="X4T-Sb-Kze" secondAttribute="trailing" constant="16" id="rBW-Fo-L8Q"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="448" height="144"/>
+            <connections>
+                <outlet property="btLogin" destination="Pbw-7D-dCX" id="vrx-Ic-gDz"/>
+                <outlet property="viewCell" destination="X4T-Sb-Kze" id="2JM-Bk-U27"/>
+            </connections>
+            <point key="canvasLocation" x="104.34782608695653" y="65.625"/>
+        </collectionViewCell>
+    </objects>
+</document>
